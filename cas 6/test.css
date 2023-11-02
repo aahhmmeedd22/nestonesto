@@ -1,0 +1,11 @@
+.test {
+    width: 500px;
+    height: 500px;
+    background-color:gray;
+}
+
+#mojBtn {
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+}

@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 400px;
+    width: 600px;
+    background-color: azure;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    height: 100%;
+    width: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.midle {
+    height: 100%;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.right {
+    height: 100%;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.krug {
+    width: 10px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.krugg {
+    width: 10px;
+    height: 22px;
+    border-radius: 40%;
+    background-color: black;
+}

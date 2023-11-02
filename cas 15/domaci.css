@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card_1 {
+    height: 400px;
+    width: 270px;
+    background-color: white;
+}
+
+.card_2 {
+    height: 400px;
+    width: 270px;
+    background-color: white;
+}
+
+.img {
+    height: 160px;
+    width: 100%;
+    background-image: url(https://imageio.forbes.com/i-forbesimg/media/lists/places/new-york-ny_416x416.jpg?format=jpg&height=416&width=416&fit=bounds);
+    display: flex;
+    flex-direction: column;
+}
+
+.up {
+    height: 35px;
+    width: 100%;
+}

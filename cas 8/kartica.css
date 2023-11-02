@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 500px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    gap: 10px;   
+}
+
+.btnPrime {
+    padding: 5px 15px;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.headTit span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.headTit {
+    margin-top: 10px;
+}
+
+.btnBlue {
+    padding: 5px 15px;
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 20px;
+}
+
+.btnWraper {
+    margin-top: 10px;
+}
+
+.text {
+    margin-top: 10px;
+}

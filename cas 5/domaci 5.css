@@ -1,0 +1,61 @@
+.facebook {
+    height: 500px;
+    width: 300px;
+    background-color: wheat;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.instagram {
+    height: 500px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.twitter {
+    height: 500px;
+    width: 300px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.Prijava {
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Registracija {
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: wheat;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
