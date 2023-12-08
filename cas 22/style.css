@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background-color: black;
+    color: white;   
+    height: 50px;
+    border-width: 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.btnL {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btnL:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.slike {
+    min-height: 80vh;
+    width: 100%;
+    animation: razneSlike infinite;
+    animation-duration: 10s;
+    transition: none;    
+    background-repeat: no-repeat;
+}
+
+@keyframes razneSlike {
+    0% {background-image: url(https://www.w3schools.com/w3images/chicago.jpg);}
+    50% {background-image: url(https://www.w3schools.com/w3images/ny.jpg);}
+    100% {background-image: url(https://www.w3schools.com/w3images/la.jpg);}
+}
+
+.containerTxt {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentTxt {
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.contentPhotos {
+    height: 200px;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.right {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.middle {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.photo {
+    height: 150px;
+    width: 150px;
+    background-image: url(https://www.w3schools.com/w3images/bandmember.jpg);
+}
+
+.reservation {
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    height: 400px;
+    width: 900px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    height: 400px;
+    width: 900px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.fan {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ostalo {
+    height: 180px;
+    width: 900px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftt {
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+}
+
+.up {
+    height: 33%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.ikonica {
+    height: 60%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tekst {
+    widows: 90%;
+    height: 60%;
+    background-color: brown;
+}
+
+.sredina {
+    height: 33%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.down {
+    height: 33%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightt {
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}

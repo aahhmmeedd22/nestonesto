@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    overflow: hidden;
+}
+
+.nesto {
+    display: flex;
+    margin-left: 50px;
+}
+
+.btns {
+    height: 100%;
+    display: flex;
+    margin-right: 50px;
+}
+
+
+
+.menu {
+    display: none;
+}
+
+.btn {
+    height: 100%;
+    width: 100px;
+    color: rgb(138, 61, 138);
+    border: 0;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: rgb(105, 170, 228);
+    cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    display: none;
+}
+
+#ikonica {
+    display: none;
+    margin-right: 15px;
+}
+
+.txt:hover .menu {
+    display: block;
+}
+
+@media screen and (max-width: 500px){
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        overflow: hidden;
+        width: 100%; 
+    }
+
+    .nesto{
+        display: flex;
+        margin-left: 15px;
+    }
+
+    .services {
+        height: 25%;
+        
+    }
+
+  
+
+    #ikonica {
+        display: block;
+        margin-right: 15px;
+    }
+
+    #ikonica:hover {
+        cursor: pointer;
+        scale: 1.1;
+        opacity: 0.3;
+    }
+
+    #ikonica:hover .menu {
+        display: block;
+    }
+
+    .btn {
+        display: none;
+    }
+}

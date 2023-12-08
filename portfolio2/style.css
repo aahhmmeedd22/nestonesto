@@ -1,0 +1,504 @@
+body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.mainContainer {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.levo {
+    height: 100vh;
+    width: 50%;
+    background-color: #36827f;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    padding: 30px;
+}
+
+.work {
+    height: 90%;
+    width: 70%;
+    background-color: #36827f;
+    padding: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nesto1 {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.hamburger {
+    font-size: 30px;
+    color: #36827f;
+}
+
+.nesto2 {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nesto2 h1 {
+    color: #464D77;
+    font-size: 48px;
+}
+
+.nesto2 span {
+    color: #464D77;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.nesto2 a {
+    color: #464D77;
+    text-decoration: none;
+}
+
+.lets:hover a {
+    color: #36827f;
+}
+
+.nesto3 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.nesto3 span {
+    color: rgb(168, 168, 168);
+    font-size: 14px;
+}
+
+.nesto3 a {
+    color: white;
+}
+
+.burger {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #464D77;
+}
+
+.cardBurger {
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #f4eded;
+    display: none;
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+.abt {
+    height: 25%;
+    width: 100%;
+    background-color: #f4eded;
+}
+
+.partners {
+    height: 25%;
+    width: 100%;
+    background-color: #f4eded;
+}
+
+.prj {
+    height: 25%;
+    width: 100%;
+    background-color: #f4eded;
+}
+
+.book {
+    height: 25%;
+    width: 100%;
+    background-color: #f4eded;
+}
+
+.lets {
+    border: 2px solid #464d77;
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: #36827f;
+    color: #464D77;
+    transition: 0.3s ease-in;
+}
+
+.lets:hover {
+    background-color: #464D77;
+    color: #36827f;
+    cursor: pointer;
+}
+
+.nesto4 {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.desno {
+    min-height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe {
+    height: 100vh;
+    width: 100%;
+    background-color: #f4eded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.something {
+    height: 80%;
+    width: 70%;
+    color: #36827f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.o {
+    height: 45%;
+    width: 100%;
+}
+
+.tehnika {
+    height: 20%;
+    width: 100%;
+}
+
+.personal {
+    height: 30%;
+    width: 100%;
+}
+
+.clients {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.jedan {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dva {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tri {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cetiri {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popUp {
+    height: auto;
+    width: auto;
+    opacity: 0;
+    display: none;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(15%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+.left {
+    height: 98%;
+    width: 49.8%;
+    background-color: #f4eded;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left:hover {
+    background-color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+    justify-content: start;
+    align-items: start;
+}
+
+.left:hover .haha {
+    opacity: 0;
+    display: none;
+}
+
+.left:hover .popUp {
+    opacity: 1;
+    display: block;
+    animation: slideUp 0.5s;
+}
+
+.right {
+    height: 98%;
+    width: 49.8%;
+    background-color: #f4eded;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right:hover {
+    background-color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+    justify-content: start;
+    align-items: start;
+}
+
+.right:hover .haha {
+    animation: fadeOut 0.5s ease-in-out;
+    opacity: 0;
+    display: none;
+}
+
+.right:hover .popUp {
+    opacity: 1;
+    display: block;
+    animation: slideUp 0.5s;
+}
+
+
+.projects {
+    height: 100vh;
+    width: 100%;
+    background-color: #f4eded;
+    color: #36827f;
+}
+
+.nazivi {
+    height: auto;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.mainContact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #f4eded;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #36827f;
+}
+
+.contact {
+    height: 70%;
+    width: 70%;
+}
+
+.kontakti {
+    height: auto;
+    width: 100%;
+}
+
+.stidljiv {
+    height: auto;
+    width: 100%;
+    background-color: #f4eded;
+}
+
+.r1 {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.r2 {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.r3 {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.lijevo {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: #464D77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px){
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .levo {
+        position: relative;
+        width: 100%;
+        padding: 0;
+    }
+
+    .work {
+        height: 100%;
+        width: 100%;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .nesto2 {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .nesto2 h1 {
+        font-size: 38px;
+    }
+
+    .desno {
+        width: 100%;
+    }
+
+    .something {
+        height: 100%;
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .o {
+        height: 40%;
+    }
+    
+    .o h1 {
+        font-size: 25px;
+    }
+
+    .o h5 {
+        font-size: 16px;
+    }
+
+    .tehnika {
+        height: 22%;
+    }
+
+    .personal {
+        height: 35%;
+    }
+
+    .tehnika, .personal h3 {
+        font-size: 18px;
+    }
+
+    .tehnika, .personal span {
+        font-size: 14px;
+    }
+
+    .nazivi h2 {
+        font-size: 22px;
+    }
+
+    .nazivi span {
+        font-size: 14px ;
+    }
+
+    .kontakti h2 {
+        font-size: 22px;
+    }
+
+    .stidljiv h4 {
+        font-size: 18px;
+    }
+
+    .stidljiv span {
+        font-size: 14px;
+    }
+}

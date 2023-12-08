@@ -1,0 +1,23 @@
+body, 
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(instagram.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

@@ -1,0 +1,91 @@
+body,
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.main-container {
+    height: 100vh;
+    background-color: red;
+    width: 100%;
+    background-color: rgba(83,151,152,255);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    height: 7vh;
+}
+
+.left {
+    margin-left: 150px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+.btn {
+    height: 100%;
+    width: 110px;
+    background-color: rgba(83,151,152,255);
+    border: 0;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(122,181,179);
+    cursor: pointer;
+}
+
+.container {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 250px;
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+
+.btnContainer:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(122,181,179);
+}
+
+.btnContainer {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(83,151,152,255);
+    height: 35px;
+    width: 150px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

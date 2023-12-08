@@ -1,0 +1,160 @@
+body, html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #000;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 41px 141px;
+}
+
+#menu {
+    padding: 41px 141px;
+}
+
+.mainContainer {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.txtContent {
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.terms {
+    color: #000;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {
+    margin-top: 86px;
+    width: 300px;
+    height: 68.284px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #6F2CFF;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards {
+    display: flex;
+    width: 98.7%;
+    max-height: 50vh;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #EFE9F9;
+
+}
+
+.research {
+    width: 1300px;
+    height: 110px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+
+.alert {
+    width: 1300px;
+    height: 110px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+.leftUp {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.leftDown {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rightUp {
+    height: 100%;
+    width: 40%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rightDown {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circle {
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (width 400px){
+    .cards{
+        width: 400px;
+        max-height: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
