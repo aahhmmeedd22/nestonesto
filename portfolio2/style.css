@@ -317,7 +317,6 @@ body, html {
 }
 
 .right:hover .haha {
-    animation: fadeOut 0.5s ease-in-out;
     opacity: 0;
     display: none;
 }
