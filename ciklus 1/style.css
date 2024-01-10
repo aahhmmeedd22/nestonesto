@@ -1,0 +1,70 @@
+body,
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(244, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idLikeToBookYuo {
+    height: 90%;
+    width: 40%;
+    background-color: red;
+    border-radius: 20px;
+    overflow: hidden;
+    scroll-snap-type: ;
+}
+
+.topFixed {
+    height: 20%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.levo {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 25px;
+    gap: 25px;
+}
+
+.circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iks {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px 0 0;
+    font-size: 30px;
+}
+
+.all {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
