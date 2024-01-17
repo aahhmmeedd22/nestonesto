@@ -27,26 +27,29 @@
 // console.log(buzz.length)
 
 
-// let prom = prompt("Unesite ime:")
-// arr = []
+// let prom = prompt("Unesite ime:");
+let prom = 'nestootsen';
 
-// if(prom == prom.reverse()){
-//     console.log("Podatak je palindrom")
-// }
-// else{
-//     console.log("Podatak nije polindrom")
-// }
+const prom2 = prom.split('').reverse().join('').push();
 
-const text = prompt(`Unesite element:`)
-let newText = "";
 
-for (let i = text.length - 1; i >=0; i--){
-    newText = newText + text[i];
-}
-
-if(newText === text){
-    alert("Palindrom")
+if(prom == prom2){
+    console.log("Podatak je palindrom")
 }
 else{
-    alert("Nije palindrom")
+    console.log("Podatak nije polindrom")
 }
+
+// const text = prompt(`Unesite element:`)
+// let newText = "";
+
+// for (let i = text.length - 1; i >=0; i--){
+//     newText = newText + text[i];
+// }
+
+// if(newText === text){
+//     alert("Palindrom")
+// }
+// else{
+//     alert("Nije palindrom")
+// }
