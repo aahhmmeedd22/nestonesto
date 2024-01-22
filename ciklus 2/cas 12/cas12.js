@@ -38,13 +38,13 @@
 
 // console.log(noviArr)
 
-const arr2 = [[1,2,3],[1,2,3],[1,2,3]]
+const arr2 = [[1,2,3],[4,5,6],[7,8,9]]
 const novi = []
+let j = 0
 
 for (let i = 0; i < arr2.length; i++){
-    for (let j = 0; j < arr2[i].length; j++){
-        novi.push(arr2[i][j])
-    }
+    novi.push(arr2[i][j])
+    j++    
 }
 
 console.log(novi)
