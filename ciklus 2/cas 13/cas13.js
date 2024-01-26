@@ -13,13 +13,21 @@
 // console.log(test2)
 
 
-const broj = prompt(`Unesite broj n:`);
+let broj = prompt(`Unesite broj`)
+while(isNaN(broj)){
+    broj = prompt("Unesite BROJ")
+}
 
 for (let i = 1; i <= broj; i++) {
     let str = '';
-    for (let j = 0; j < i; j++){
-        str += '*'
+    for (let k = broj - i; k > 0; k--) {
+        str += ' ';
+    }
+    for (let j = 0; j < i; j++) {
+        str += '*';
+    }
+    for (let j = 0; j < i - 1; j++) {
+        str += '*';
     }
     console.log(str);
-    // str = '';
 }
