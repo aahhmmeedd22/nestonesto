@@ -11,12 +11,14 @@
 // )
 
 // console.log(nasZadatak,noviNiz)
+
 const nasZadatak = [1,2,3,4,5,6,7,8,9,10]
 let noviNIz = []
+const broj = 1;
 
 function nesto(nasZadatak) {
     for (let i = 0; i < nasZadatak.length; i++) {
-         noviNIz.push(nasZadatak[i] + 1)
+         noviNIz.push(nasZadatak[i] + broj)
     }
 }
 nesto(nasZadatak)
