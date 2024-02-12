@@ -13,4 +13,4 @@ const nesto2 = {
     godine:godine
 }
 
-console.log(nesto2.godine)
+console.log(nesto2)
