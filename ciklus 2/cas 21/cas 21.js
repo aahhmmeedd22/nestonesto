@@ -20,7 +20,7 @@ let mejl = prompt("Unesi mejl")
 while (!mejl.includes("@") || !mejl.includes(".") || mejl.length < 5) {
     mejl = prompt("Mejl nije validan. Pokusajte opet.")
 }
-alert("Uspesno ste se ulogovali")
+alert("Uspesno ste kreirali nalog.")
 
 // let U = prompt("Unesi username")
 // while (U !== username) {
@@ -40,3 +40,5 @@ while (p !== password) {
 // while (m !== mejl) {
 //     m = prompt("Pogresna mejl. unesite ponovo");
 // }
+
+//objekti-key value
