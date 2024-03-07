@@ -1,18 +1,17 @@
 class Task {
     constructor(taskDescription) {
       this.taskDescription = taskDescription;
-      this.taskId = Date.now();
     }
   }
   
   const taskList = [];
   
   while (true) {
-    const userChoice = Number(prompt("Choose one task:\n 1. Add one task,\n 2. See all tasks,\n 3. Chenge task,\n 4. Delete task,\n 0. Leave"));
+    const userChoice = Number(prompt("Choose one task:\n 1. Add one task,\n 2. See all tasks,\n 3. Chenge task,\n 4. Delete task,\n 0. Leave."));
   
     switch (userChoice) {
       case 1:
-        const descriptionInput = prompt("Enter task description:");
+        const descriptionInput = prompt("Enter task:");
         const newTask = new Task(descriptionInput);
         taskList.push(newTask);
         localStorage.setItem(taskList.length - 1, descriptionInput);
@@ -63,4 +62,4 @@ class Task {
     }
   }
   
-  console.log('Tasks:', taskList);  
+  console.log('Tasks:', taskList);
