@@ -25,7 +25,7 @@
 
 
 // const kemal = {
-//     ime:"kemal",
+//     ime: kemal",
 //     prezime:"hrhrhrhr",
 //     godine:23
 // }
